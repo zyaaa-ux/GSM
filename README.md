@@ -4,6 +4,8 @@
 
 GSM is a causal encoder–decoder architecture for efficient long-context language modeling. It concentrates historical information selection and aggregation in the encoder, then supplies all decoder layers with a shared state of a fixed window size. This design reduces repeated retrieval and cache overhead across layers while preserving access to long-range information and sequential computation through decoder depth.
 
+You can find the paper for this work [[Paper]](https://github.com/zyaaa-ux/GSM/blob/main/GSM_arxiv.pdf). The paper uses the ICLR template, but this does not imply that it has been submitted to ICLR.
+
 ## Architecture
 
 ![GSM architecture](GSM.png)
