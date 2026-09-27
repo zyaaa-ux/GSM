@@ -14,12 +14,13 @@ Each decoder layer reads the same shared state using its own evolving queries, w
 
 ## Long-Context Performance
 
-![Long-context perplexity](gsm_fineweb_8b.pdf)
+[![Long-context perplexity](gsm_fineweb_8b.png)](gsm_fineweb_8b.pdf)
+
 
 In the reported evaluation, GSM maintains stable perplexity across context lengths from 8K to 64K and achieves lower perplexity than the baseline at 32K and beyond, demonstrating stable long-context modeling performance.
 
 ## Inference Efficiency
 
-![Inference efficiency](gsm_inference_1p5b.pdf)
+[![Inference efficiency](gsm_inference_1p5b.png)](gsm_inference_1p5b.pdf)
 
 In the 1.5B model benchmark, GSM achieves higher prefill and decode throughput across all tested input lengths while reducing request-cache usage. The absolute gap in cache usage widens as the input length increases.
