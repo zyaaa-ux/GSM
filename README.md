@@ -23,6 +23,6 @@ In the reported evaluation, GSM maintains stable perplexity across context lengt
 
 ## Inference Efficiency
 
-[![Inference efficiency](gsm_inference_1p5b.png)](gsm_inference_1p5b.pdf)
+[![Inference efficiency](30b_ef.png)](gsm_inference_1p5b.pdf)
 
-In the 1.5B model benchmark, GSM achieves higher prefill and decode throughput across all tested input lengths while reducing request-cache usage. The absolute gap in cache usage widens as the input length increases.
+In the 30B model benchmark, GSM achieves higher prefill and decode throughput across all tested input lengths while reducing request-cache usage. The absolute gap in cache usage widens as the input length increases.
